@@ -1,5 +1,5 @@
 import { getServerSession } from 'next-auth'
-import { authOptions } from '@/lib/authOptions'
+import { authOptions } from '../lib/authOptions'
 import Auth from './components/Auth'
 import ClientApp from './components/ClientApp'
 import styles from './page.module.css'
